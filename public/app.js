@@ -21,7 +21,7 @@ function App() {
   const [reserved, setReserved] = React.useState([]);
   const [result, setResult] = React.useState(null);
   const [pending, setPending] = React.useState(false);
-  const fee = selected.length * 2;
+  const fee = selected.length > 0 ? 2 : 0;
   const total = selected.length * 12 + fee;
 
   function toggle(seat) {
