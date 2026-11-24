@@ -1,0 +1,7 @@
+{
+  "name": "lantern-browser-tests",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test seats.test.js" },
+  "dependencies": { "playwright-core": "1.50.1" }
+}
